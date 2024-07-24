@@ -9,8 +9,8 @@ class Provider(PersonProvider):
     formats_male = OrderedDict(
         [
             ("{{given_name_male}} {{last_name}} {{last_name}}", 0.55),
-            ("{{first_name_male}} {{last_name}} {{last_name}}", 0.25),
-            ("{{first_name_male}} {{last_name}}", 0.17),
+            ("{{first_name_male}} {{last_name}} {{last_name}}", 0.35),
+            ("{{first_name_male}} {{last_name}}", 0.07),
             ("{{given_name_male}} {{last_name}}-{{last_name}} {{last_name}}", 0.01),
             ("{{first_name_male}} {{last_name}}-{{last_name}} {{last_name}}", 0.01),
             ("{{first_name_male}} {{last_name}}-{{last_name}}", 0.01),
@@ -20,8 +20,8 @@ class Provider(PersonProvider):
     formats_female = OrderedDict(
         [
             ("{{given_name_female}} {{last_name}} {{last_name}}", 0.55),
-            ("{{first_name_female}} {{last_name}} {{last_name}}", 0.25),
-            ("{{first_name_female}} {{last_name}}", 0.17),
+            ("{{first_name_female}} {{last_name}} {{last_name}}", 0.35),
+            ("{{first_name_female}} {{last_name}}", 0.7),
             ("{{given_name_female}} {{last_name}}-{{last_name}} {{last_name}}", 0.01),
             ("{{first_name_female}} {{last_name}}-{{last_name}} {{last_name}}", 0.01),
             ("{{first_name_female}} {{last_name}}-{{last_name}}", 0.01),
